@@ -448,6 +448,88 @@ nav {
     transform: translateX(3px);
 }
 
+/* Tools I Used Section */
+.tools {
+    padding: 80px 20px;
+    background: var(--white);
+}
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tool-item {
+    background: var(--bg);
+    padding: 1.25rem 1.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(37, 99, 235, 0.08);
+    transition: box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.tool-item:hover {
+    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.1);
+    border-color: rgba(37, 99, 235, 0.2);
+}
+
+.tool-service-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgba(37, 99, 235, 0.15);
+}
+
+.tool-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+}
+
+.tool-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.tool-row-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+
+.tool-label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--dark);
+}
+
+.tool-percent {
+    font-weight: 700;
+    color: var(--primary);
+    font-size: 0.875rem;
+    flex-shrink: 0;
+}
+
+.tool-bar {
+    height: 6px;
+    background: rgba(37, 99, 235, 0.12);
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.tool-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary), var(--accent));
+    border-radius: 999px;
+    transition: width 0.6s ease;
+}
+
 /* About Section */
 .about {
     padding: 80px 20px;
