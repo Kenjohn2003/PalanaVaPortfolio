@@ -365,6 +365,28 @@ nav {
     font-size: 1.1rem;
 }
 
+.services-group {
+    margin-bottom: 3.5rem;
+}
+
+.services-group:last-child {
+    margin-bottom: 0;
+}
+
+.services-group-title {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: var(--dark);
+    letter-spacing: 0.02em;
+    margin-bottom: 1.5rem;
+    padding: 0.85rem 1.25rem;
+    padding-left: 1.25rem;
+    border-left: 4px solid var(--primary);
+    background: linear-gradient(90deg, rgba(37, 99, 235, 0.06) 0%, transparent 100%);
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
