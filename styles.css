@@ -484,12 +484,15 @@ nav {
 
 .service-card:hover .service-link {
     background: rgba(0, 255, 171, 0.2);
-    color: var(--secondary);
+    color: var(--white);
     transform: translateY(-1px);
+    transform: scale(1.1);
+    
 }
 
 .service-card:hover .service-link::after {
     transform: translateX(3px);
+    
 }
 
 /* Tools I Used Section */
